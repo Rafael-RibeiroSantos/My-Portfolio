@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
+
+body {
+    max-width: 100vw;
+    height: 100%;
+    font-family: "Outfit", sans-serif;
+    color: #eedead;
+    background: linear-gradient(180deg, #05203a 0%, #000000 100%);
+    
+}
+  
+/* CABECALHO */
+
+.cabecalho {
+    color: #eedead;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.cabecalho .apresentacao {
+    flex: 60%;
+}
+
+.cabecalho .apresentacao h1 {
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    font-size: 60px;
+}
+
+.cabecalho .apresentacao span {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 90px;
+}
+
+.cabecalho .apresentacao .social-medias {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.cabecalho .apresentacao .social-medias a{
+    font-size: 50px;
+    color: #eedead;
+    transition: 0.6s ease;
+}
+
+.cabecalho .apresentacao .social-medias a:hover{
+   margin-bottom: 40px;
+}
+
+.secoes {
+    font-family: "Bebas Neue", sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.secoes ul {
+    display: flex;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.secoes ul li {
+    padding: 0px 30px;
+    cursor: pointer;
+}
+
+.secoes ul li:hover {
+    border-bottom: 2px solid #eedead;
+}
+
+.pressionado {
+    border-bottom: 2px solid #eedead;
+}
+
+
+.cabecalho .rafael {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex: 40%;
+    font-size: 24px;
+    gap: 20px;
+}
+
+.cabecalho .rafael img {
+    width: 500px;
+    border: 1px solid #eedead;
+    box-shadow: 0px 0px 50px #eedead;
+    border-radius: 50%;
+}
+
+/*  */
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 900px;
+    background-color: #cbc09f;
+    margin: 0 auto 100px;
+    padding: 80px;
+    color: #083054;
+}
+
+.conteudo-principal h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+/* PROJETOS PESSOAIS */
+
+.projetos-pessoais {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos {
+    display: flex;
+    gap: 220px;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+}
+
+.projeto .apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.projeto .apresentacao h4 {
+    margin-bottom: 10px;
+}
+
+.projeto img {
+    border: 2px solid black;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.projeto .telas-menores {
+    width: 150px;
+    height: 370px;
+    position: absolute;
+    right: -70px;
+    top: 200px;
+}
+
+.projeto .telas-grandes {
+    width: 800px;
+    height: 400px;
+}
+
+.projeto .botoes {
+    display: flex;
+    margin-left: 110px;
+    gap: 50px;
+}
+
+.projetos .botoes button {
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #05203a;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+}
+
+.projetos .botoes button:hover {
+    background-color: #093155;
+    transform: scale(1.03);
+}
+
+.projetos .botoes button a {
+    padding: 20px 40px;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    color: #eedead;
+}
+
+/* SOBRE MIM */
+
+.sobre-mim {
+    display: none;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    gap: 80px;
+}
+
+.sobre-mim p {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+
+/* FICHA TECNICA */
+
+.ficha-tecnica {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.linguagens {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+.linguagem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.linguagem img {
+    width: 170px;
+}
+
+.habilidades {
+    text-align: center;
+    font-size: 28px;
+}
+
+
+/* RODAPE */
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(5,32,58,1) 100%);
+    text-align: center;
+    gap: 30px;
+}
+
+.rodape .social-medias {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.rodape .social-medias a {
+    color: #eedead;
+    font-size: 40px;
+}
+
+.rodape .social-medias a:hover {
+    transform: scale(1.1);
+}
+
+.rodape .atribuicao a {
+    color: #eedead;
+}
+
+/*  */
+
+.mostrar {
+    display: flex;
+}
